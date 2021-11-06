@@ -5,7 +5,7 @@ metadata:
   name: app-source
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 10m
   ref:
     branch: local-v2
   url: https://github.com/xzrm/devops-with-k8s
