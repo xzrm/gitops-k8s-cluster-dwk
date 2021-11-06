@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: app-source
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  ref:
+    branch: local-v2
+  url: https://github.com/xzrm/devops-with-k8s
+
